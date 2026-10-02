@@ -1,0 +1,7 @@
+check,passed,detail
+No duplicate region-year-week,True,0
+Signals only on observed data,True,All alerts have observed ILI rate
+No negative counts,True,
+Rate between 0 and 100,True,
+Alert is union of detector signals,True,
+2026 latest week exists,True,37

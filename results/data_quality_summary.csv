@@ -1,0 +1,12 @@
+metric,value
+raw_rows,45138
+regions,55
+years,17
+min_year,2010
+max_year,2026
+missing_ili_total,772
+missing_total_patients,772
+zero_ili_total,999
+valid_observations,44297
+duplicate_region_year_week,0
+invalid_nonpositive_denominator,69

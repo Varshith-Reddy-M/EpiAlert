@@ -1,0 +1,12 @@
+metric,value
+observations,45138.0
+regions,55.0
+years,17.0
+valid_detection_observations,44297.0
+alerts,2820.0
+cusum_signals,2711.0
+ewma_signals,402.0
+both_signals,293.0
+alert_rate_percent,6.247507643227436
+latest_year,2026.0
+latest_week,37.0

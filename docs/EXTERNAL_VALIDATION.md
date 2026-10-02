@@ -1,0 +1,5 @@
+# External contextual validation
+
+CDC's Week 37, 2026 report classified all 55 jurisdictions as having minimal ILI activity, with no jurisdictions in low, moderate, high, or very high categories. EpiAlert produced one statistical signal in Week 37 (West Virginia). This is not treated as a contradiction because CDC's categorical activity map and EpiAlert answer different questions: the CDC map describes absolute/current activity, while EpiAlert asks whether a region's current rate is unusual relative to its seasonal historical reference. CDC also states that ILINet captures ILI rather than laboratory-confirmed influenza and should be interpreted with other surveillance data.
+
+CDC reported a much more elevated national situation in Week 5, 2025, with 34 jurisdictions at very high activity and 11 at high activity. EpiAlert produced 27 regional alerts that week. This provides contextual evidence that EpiAlert produces more signals during a period of high national activity, but it is not a formal validation against the CDC activity categories because the measures and thresholds differ.
