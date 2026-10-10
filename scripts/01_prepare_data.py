@@ -7,12 +7,12 @@ RAW=ROOT/'data/raw/ILINet.csv'
 OUT=ROOT/'data/processed/analysis_input.csv'
 QC=ROOT/'results/data_quality_summary.csv'
 
-# CDC ILINet export contains a descriptive title row before the CSV header.
+# Load raw data
 df=pd.read_csv(RAW, skiprows=1, dtype=str)
 expected=['REGION TYPE','REGION','YEAR','WEEK','% WEIGHTED ILI','%UNWEIGHTED ILI','AGE 0-4','AGE 25-49','AGE 25-64','AGE 5-24','AGE 50-64','AGE 65','ILITOTAL','NUM. OF PROVIDERS','TOTAL PATIENTS']
 assert df.columns.tolist()==expected, f'Unexpected columns: {df.columns.tolist()}'
 
-# Keep only fields required for surveillance analysis plus provenance/context fields.
+# Convert selected columns into numbers.
 for c in ['YEAR','WEEK','ILITOTAL','NUM. OF PROVIDERS','TOTAL PATIENTS','%UNWEIGHTED ILI']:
     df[c]=pd.to_numeric(df[c],errors='coerce')
 
